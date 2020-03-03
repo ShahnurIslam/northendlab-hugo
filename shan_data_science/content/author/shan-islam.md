@@ -1,5 +1,6 @@
 +++
 title = "Shan Islam"
+image = "/images/author/shan-islam.jpg"
 description = "Data Scientist"
 +++
 
