@@ -5,14 +5,14 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: exampleSite/content
+  path: shan_data_science/content
   label: Post
   create: documents
   match: "*"
   templates:
   - post
 - type: directory
-  path: exampleSite/data
+  path: shan_data_science/data
   label: Tools
   create: documents
   match: "**/*"
@@ -20,22 +20,22 @@ sections:
   templates:
   - tools
 - type: directory
-  path: exampleSite/content/author
+  path: shan_data_science/content/author
   label: Author
   create: documents
   match: "**/*"
   templates:
   - author
 - type: document
-  path: exampleSite/documentation
+  path: shan_data_science/documentation
   label: Documentation
 - type: directory
-  path: exampleSite/content/contact
+  path: shan_data_science/content/contact
   label: Contact
   create: all
   match: "**/*"
 - type: directory
-  path: exampleSite
+  path: shan_data_science
   label: Configuration
   create: all
   match: "*.toml"
